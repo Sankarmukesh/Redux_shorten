@@ -1,19 +1,32 @@
 {
-  "posts": [
+  "urls": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "code": "o6JJ3s",
+      "short_link": "shrtco.de/o6JJ3s",
+      "full_short_link": "https://shrtco.de/o6JJ3s",
+      "short_link2": "9qr.de/o6JJ3s",
+      "full_short_link2": "https://9qr.de/o6JJ3s",
+      "short_link3": "shiny.link/o6JJ3s",
+      "full_short_link3": "https://shiny.link/o6JJ3s",
+      "share_link": "shrtco.de/share/o6JJ3s",
+      "full_share_link": "https://shrtco.de/share/o6JJ3s",
+      "original_link": "https://mail.google.com/mail/u/0/#chat/dm/ynREPEAAAAE",
+      "id": "1672467569109",
+      "email": "sankar.yalamandla@tigeranalytics.com"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "code": "T7nUnv",
+      "short_link": "shrtco.de/T7nUnv",
+      "full_short_link": "https://shrtco.de/T7nUnv",
+      "short_link2": "9qr.de/T7nUnv",
+      "full_short_link2": "https://9qr.de/T7nUnv",
+      "short_link3": "shiny.link/T7nUnv",
+      "full_short_link3": "https://shiny.link/T7nUnv",
+      "share_link": "shrtco.de/share/T7nUnv",
+      "full_share_link": "https://shrtco.de/share/T7nUnv",
+      "original_link": "https://mail.google.com/mail/u/0/#chat/dm/ynREPEAAAAE",
+      "id": "1672467594529",
+      "email": "ysankarmukesh@gmail.com"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

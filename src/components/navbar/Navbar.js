@@ -84,8 +84,8 @@ const Navbar = () => {
     <header
       className="header"
       style={{
-        background: "#24292f",
-        height: "60px",
+       
+        height: "40px",
         display: "flex",
         alignItems: "center",
       }}
@@ -94,10 +94,10 @@ const Navbar = () => {
         className="wrapper"
         style={{
           display: "flex",
-          alignItems: "center",
-          width: "90%",
+                    width: "90%",
           margin: "auto",
           justifyContent: "space-between",
+          alignItems:"center"
         }}
       >
         <Link to="/" style={{ textDecoration: "none" }}>
@@ -114,15 +114,15 @@ const Navbar = () => {
                   paddingRight: "60px",
                   letterSpacing: "0.13px",
                   color: "white",
-                  textTransform: "uppercase",
+                  
                   opacity: "1",
                   fontSize: "19px",
-                  fontWeight: "500",
+                  
                   whiteSpace: "nowrap",
                 }}
               >
-                <span style={{ color: "orange" }}>R</span>edux{" "}
-                <span style={{ color: "orange", marginLeft: "5px" }}>S</span>hort Api{" "}
+                <span style={{ color: "black",fontWeight:"600" }}>Redux Short Api</span>{" "}
+               
               </strong>
             </span>
           </div>
@@ -145,16 +145,16 @@ const Navbar = () => {
                   src={image}
                   alt=""
                   className="avatar"
-                  width={40}
-                  height={40}
-                  style={{ borderRadius: "50%" }}
+                  width={30}
+                  height={30}
+                  style={{ borderRadius: "50%",marginTop:"5px" }}
                 />
               </div>
             )}
             {image && (
               <div
                 className="item"
-                style={{ fontSize: "20px", color: "white", cursor: "pointer" }}
+                style={{ fontSize: "20px", color: "", cursor: "pointer" }}
                 onClick={() => {
                   // dispatch(LogoutUser());
                   navigate("/");
@@ -163,9 +163,21 @@ const Navbar = () => {
                 <i class="fa-solid fa-house"></i>
               </div>
             )}
+            {image && (
+              <div
+                className="item"
+                style={{ fontSize: "20px", color: "", cursor: "pointer" }}
+                onClick={() => {
+                  // dispatch(LogoutUser());
+                  navigate("/contact");
+                }}
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+            )}
             {image ? <div
               className="item"
-              style={{ fontSize: "20px", color: "orange", cursor: "pointer" }}
+              style={{ fontSize: "20px", color: "black", cursor: "pointer" }}
               onClick={() => {
                 dispatch(LogoutUser());
                 navigate("/");
