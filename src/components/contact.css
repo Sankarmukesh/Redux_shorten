@@ -1,0 +1,9 @@
+input,textarea,.btm{
+    padding:5px;
+    width: 300px;
+}
+.btm{
+    background: #063970;
+    color: white;
+    width: 314px;
+}
